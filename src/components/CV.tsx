@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 const data = {
   name: "Difan Jia",
   tagline: "PhD Student · HCI & Visualization · XR/AR",
-  //roleTarget: "Applying: Autodesk PhD Intern, HCI & Visualization Research",
+  roleTarget: "Applying: PhD Intern, HCI & Visualization Research",
   contact: {
     email: "difan.jia@utdallas.edu",
     phone: "7632289947", // format as you prefer
@@ -111,7 +111,7 @@ const data = {
 export default function CV() {
   const [isDark, setIsDark] = useState(false);
 
-  // 初始化主题
+  // Initialize theme
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -121,7 +121,7 @@ export default function CV() {
     document.documentElement.classList.toggle('dark', shouldBeDark);
   }, []);
 
-  // 切换主题
+  // Toggle theme
   const toggleTheme = () => {
     const newIsDark = !isDark;
     setIsDark(newIsDark);

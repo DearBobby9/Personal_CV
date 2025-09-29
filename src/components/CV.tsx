@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 const data = {
   name: "Difan Jia",
   tagline: "PhD Student · HCI & Visualization · XR/AR",
-  roleTarget: "Applying: PhD Intern, HCI & Visualization Research",
+  roleTarget: "Applying: PhD Intern, HCI & Visualization & XR/AR Research",
   contact: {
     email: "difan.jia@utdallas.edu",
     phone: "7632289947", // format as you prefer
